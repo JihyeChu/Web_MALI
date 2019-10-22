@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <title>샘플페이지</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+       <script src="js/jquery.1.12.4.js" type="text/javascript"></script>
+       <script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+       <link href="plugins/web-fonts-with-css/css/all.css" rel="stylesheet" type="text/css"/>
+       <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider({controls:false, pager:false, auto:true});
+        });
+       </script>
+    </head>
+    <body>
+        <div class="overlay"></div>
+        <div class="slider">
+            <div class="background__01"></div>
+            <div class="background__02"></div>
+            <div class="background__03"></div>
+        </div>
+        <div class="contents">
+            <p class="contents_name">MALI</p>
+            <p class="contents_job">I'm Web Programmer & Web Designer</p>
+            <div class="contents_sns">
+                <ul class="contents_list">
+                    <li>
+                        <a href="https://www.facebook.com/">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://blog.naver.com/aby73/221644794745">
+                            <i class="fab fa-blogger-b"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
